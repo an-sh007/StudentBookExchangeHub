@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>All Products - Wardrobe</title>
+    <title>All Products - SBEH</title>
 
     <link rel="stylesheet" href="style.css" />
   
@@ -17,15 +17,15 @@
       <div class="navbar">
         <div class="logo">
           <a href="index.html">
-            <img src="images/logo.png" alt="" width="125px"
+            <img src="images/Logo.png" alt="" width="125px"
           /></a>
         </div>
         <nav>
           <ul id="MenuItems">
             <li><a href="index.html">Home</a></li>
             <li><a href="products.html">Products</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a href="account.html">Account</a></li>
           </ul>
         </nav>
@@ -49,58 +49,64 @@
       </div>
 
       <div class="row">
-        <div class="col-4">
-          <img src="images/product-1.jpg" alt="" />
-          <h4>Fashion Trends</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
+          <div class="col-4">
 
-        <div class="col-4">
-          <img src="images/product-2.jpg" alt="" />
-          <h4>Fashion Trends</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
+             <img src="images/Book1.jpg" alt="" onclick="openImg(this)" id="image"/>
 
-        <div class="col-4">
-          <img src="images/product-3.jpg" alt="" />
-          <h4>Fashion Trends</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
+             <h4>Classic Data Structures</h4>
+             <p><Samanta D</p><p>Prentice Hall India.</p><p><br><br></p>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+             </div>
+             <p>₹200.00</p>
           </div>
-          <p>$50.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/product-4.jpg" alt="" />
-          <h4>Fashion Trends</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
+          <div class="col-4">
+             <img id="image" src="images/Book2.jpg" alt="" onclick="openImg(this)" />
+             <h4>Software Engineering : A practitioner’s    approach</h4>
+             <P>Roger S. Pressman, McGraw Hill publication,Eighth edition, 2014
+             </P>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+             </div>
+             <p>₹350.00</p>
           </div>
-          <p>$50.00</p>
-        </div>
-      </div>
-      <div class="row">
+          <div class="col-4">
+             <img src="images/Book3.png" alt="" onclick="openImg(this)" id="image"/>
+             <h4>Software Engineering</h4>
+             <p>Ian Sommerville </p><p>Pearson Education, Tenth edition, 2015.</p></p>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+             </div>
+             <p>₹450.00</p>
+          </div>
+          <div class="col-4">
+             <img src="images/Book4.jpg" alt="" onclick="openImg(this)" id="image"/>
+             <h4>Introduction to Electronics Engineering</h4>
+             <p>K A Navas,T A Suhail</p>
+             <p><br>/p>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+             </div>
+             <p>$50.00</p>
+          </div>
+       </div>
+      <!--<div class="row">
         <div class="col-4">
           <img src="images/product-5.jpg" alt="" />
           <h4>Fashion Trends</h4>
@@ -216,50 +222,49 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col-1">
-            <h3>Download Our App</h3>
-            <p>
-              Download App for Android <br />
-              and ios mobile phone
-            </p>
-            <div class="app-logo">
-              <img src="images/play-store.png" alt="" />
-              <img src="images/app-store.png" alt="" />
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>
+                           Download App for Android <br />
+                           and ios mobile phone
+                        </p>
+                        <div class="app-logo">
+                           <img src="images/play-store.png" alt="" onclick="openImg(this)" id="image"/>
+                           <img src="images/app-store.png" alt="" onclick="openImg(this)" id="image"/>
+                        </div>
+                     </div>
+                     <div class="footer-col-2">
+                        <img src="images/Logo.png" alt="" onclick="openImg(this)" id="image"/>
+                        <p>
+                           For students, by students.
+                        </p>
+                     </div>
+                     <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                           <li>Coupons</li>
+                           <li>Blog Post</li>
+                           <li>Return Policy</li>
+                           <li>Join Affiliate</li>
+                        </ul>
+                     </div>
+                     <div class="footer-col-4">
+                        <h3>Follow us on</h3>
+                        <ul>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                           <li>Instagram</li>
+                           <li>YouTube</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <hr />
+                  <p class="copyright">Copyright 2024 - https://haveyoumetmiz.github.io/e-commerce-part-4/</p>
+               </div>
             </div>
-          </div>
-          <div class="footer-col-2">
-            <img src="images/logo-white.png" alt="" />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur <br />adipisicing elit.
-              Porro, eum?
-            </p>
-          </div>
-          <div class="footer-col-3">
-            <h3>Useful Links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Post</li>
-              <li>Return Policy</li>
-              <li>Join Affiliate</li>
-            </ul>
-          </div>
-
-          <div class="footer-col-4">
-            <h3>Follow us</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Instagram</li>
-              <li>YouTube</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <p class="copyright">Copyright 2022 - Wardrobe.com</p>
-      </div>
-    </div>
-  </body>
-</html>
+             <script type="text/javascript" src="script.js"></script>
+         </body>
+      </html>
