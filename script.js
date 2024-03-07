@@ -23,7 +23,7 @@
 
 //var t= document.getElementById("text").innerHTML;
 var i=0;
-var t= "Buy Cheap Test Books Online";
+var t= "Buy Cheap Text Books Online";
 
 function typing()
 { 
